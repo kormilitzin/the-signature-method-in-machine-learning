@@ -1,7 +1,8 @@
 theme: jekyll-theme-cayman
 
 # Setup
-title:        The Signature Method \n in Machine Learning
+title:        The Signature Method 
+              in Machine Learning
 tagline:      A responsive theme for your project on GitHub Pages
 baseurl:      ""
 paginate:     1

@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Foundations and applications of the Signature Method in Machine Learning
+
+
 
 You can use the [editor on GitHub](https://github.com/kormilitzin/signature-method/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

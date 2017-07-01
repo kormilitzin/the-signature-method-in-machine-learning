@@ -1,4 +1,4 @@
-## Foundations and applications of the Signature Method in Machine Learning
+## What is the signature?
 
 
 

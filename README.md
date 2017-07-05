@@ -6,7 +6,7 @@ The website is in erly stages of preparation, but we are working to fill in the 
 
 In the meantime, you can explore and familiarise yourself with some of the recent works in machine learning where the signature method has played the major role.
 
-General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)">Professor Terry Lyons</a>. The signature method in its present form is distilled from the theory of rough paths and represent a systematic and a canonical way to represent sequential data.
+General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)">Professor Terry Lyons</a>. The signature method in its present form is distilled from the theory of rough paths and represents a systematic and canonical way to describe sequential data.
 
 <a href="https://arxiv.org/pdf/1405.4537.pdf" target="_blank">Rough paths, Signatures and the modelling of functions on streams</a>
 

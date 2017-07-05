@@ -6,7 +6,7 @@ The website is in erly stages of preparation, but we are working to fill in the 
 
 In the meantime, you can explore and familiarise yourself with some of the recent works in machine learning where the signature method has played the major role.
 
-
+[Extracting information from the signature of a financial data stream](https://arxiv.org/pdf/1307.7244.pdf)
 Extracting information from the signature of a financial data stream
 https://arxiv.org/pdf/1307.7244.pdf
 

@@ -16,6 +16,9 @@ author:
 # Gems
 gems:
   - jekyll-paginate
+  
+# Google services
+google_analytics: UA-80718101-1
 
 #Others
 markdown: kramdown

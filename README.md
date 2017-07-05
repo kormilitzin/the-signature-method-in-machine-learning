@@ -6,6 +6,29 @@ The website is in erly stages of preparation, but we are working to fill in the 
 
 In the meantime, you can explore and familiarise yourself with some of the recent works in machine learning where the signature method has played the major role.
 
+
+Extracting information from the signature of a financial data stream
+https://arxiv.org/pdf/1307.7244.pdf
+
+Learning from the past, predicting the statistics for the future, learning an evolving system
+https://arxiv.org/pdf/1309.0260.pdf
+
+Rough paths, Signatures and the modelling of functions on streams
+https://arxiv.org/pdf/1405.4537.pdf
+
+Kernels for sequentially ordered data
+https://arxiv.org/pdf/1601.08169.pdf
+
+A Primer on the Signature Method in Machine Learning
+https://arxiv.org/pdf/1603.03788.pdf
+
+Application of the Signature Method to Pattern Recognition in the CEQUEL Clinical Trial
+https://arxiv.org/pdf/1606.02074.pdf
+
+Online Signature Verification using Recurrent Neural Network and Length-normalized Path Signature
+https://arxiv.org/pdf/1705.06849.pdf
+
+
 Adiós!
 
 

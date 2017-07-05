@@ -8,6 +8,8 @@ In the meantime, you can explore and familiarise yourself with some of the recen
 
 [Extracting information from the signature of a financial data stream](https://arxiv.org/pdf/1307.7244.pdf)
 
+<a href="https://arxiv.org/pdf/1307.7244.pdf" target="_blank">Extracting information from the signature of a financial data stream</a>
+
 [Sparse arrays of signatures for online character recognition](https://arxiv.org/pdf/1308.0371.pdf)
 
 [Learning from the past, predicting the statistics for the future, learning an evolving system](https://arxiv.org/pdf/1309.0260.pdf)

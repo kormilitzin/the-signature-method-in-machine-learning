@@ -45,6 +45,10 @@ Deep learning and recurrent neural networks:
 <a href="https://arxiv.org/pdf/1705.06849.pdf" target="_blank">Online Signature Verification using Recurrent Neural Network and Length-normalized Path Signature</a>
 
 
+Last, but not least, the classic book on the theory of rough paths, it is a collection of lectures given at Saint-Flour school.
+<a href="https://link.springer.com/book/10.1007%2F978-3-540-71285-5" target="_blank">Differential Equations Driven by Rough Paths</a>
+
+
 
 Stay tuned!
 

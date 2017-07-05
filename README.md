@@ -14,7 +14,7 @@ A gentle introduction with lots of explained examples and an overview of recent 
 
 <a href="https://arxiv.org/pdf/1603.03788.pdf" target="_blank">A Primer on the Signature Method in Machine Learning</a>
 
-For mathematical ninjas and those with solid background in statistical machine learning, the next step will be this articles:
+For mathematical ninjas and those with solid background in statistical machine learning, the next step will be this article:
 
 <a href="https://arxiv.org/pdf/1601.08169.pdf" target="_blank">Kernels for sequentially ordered data</a>
 

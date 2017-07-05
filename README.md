@@ -1,4 +1,4 @@
-## What is a signature?
+## What is the signature method?
 
 This a github repo dedicated to theory and practice of the signature method. This a novel and powerful method for sequential data representation and feature extraction derived from the theory of rough paths in stochastic analysis. 
 

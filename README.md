@@ -49,7 +49,7 @@ Last, but not least, the classic book on the theory of rough paths, it is a coll
 <a href="https://link.springer.com/book/10.1007%2F978-3-540-71285-5" target="_blank">Differential Equations Driven by Rough Paths</a>
 
 
-Let's kick off with basics of the signature method: [a path](intro-to_paths.md)
+Let's kick off with basics of the signature method: [a path](intro-to-paths.md)
 
 
 Stay tuned!

@@ -4,7 +4,7 @@ This repo is dedicated to the theory and practice of the signature method. This 
 
 The website is in early stages of preparation, but we are working hard to fill in the content as soon as possible.
 
-In the meantime, you can explore and familiarise yourself with some recent works in machine learning where the signature method has played the major role.
+In the meantime, you can explore and familiarise yourself with some recent works in machine learning where the signature method has played a major role.
 
 General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)" target="_blank">Professor Terry Lyons</a>.
 

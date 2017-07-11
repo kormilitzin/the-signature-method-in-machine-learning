@@ -6,7 +6,7 @@ The website is in erly stages of preparation, but we are working hard to fill in
 
 In the meantime, you can explore and familiarise yourself with some of the recent works in machine learning where the signature method has played the major role.
 
-General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)">Professor Terry Lyons</a>.
+General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)" target="_blank">Professor Terry Lyons</a>.
 
 <a href="https://arxiv.org/pdf/1405.4537.pdf" target="_blank">Rough paths, Signatures and the modelling of functions on streams</a>
 

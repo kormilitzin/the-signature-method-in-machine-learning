@@ -8,7 +8,7 @@ In the meantime, you can explore and familiarise yourself with some recent works
 
 General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)" target="_blank">Professor Terry Lyons</a>: <a href="https://arxiv.org/pdf/1405.4537.pdf" target="_blank">Rough paths, Signatures and the modelling of functions on streams</a>
 
-A gentle introduction with lots of explained examples and an overview of recent application of the method are concisely represented in the primer: <a href="https://arxiv.org/pdf/1603.03788.pdf" target="_blank">A Primer on the Signature Method in Machine Learning</a>
+A gentle introduction with lots of explained examples and an overview of recent application of the method are concisely represented in: <a href="https://arxiv.org/pdf/1603.03788.pdf" target="_blank">A Primer on the Signature Method in Machine Learning</a>
 
 For mathematical ninjas and those with solid background in statistical machine learning, the next step will be this article: <a href="https://arxiv.org/pdf/1601.08169.pdf" target="_blank">Kernels for sequentially ordered data</a>
 

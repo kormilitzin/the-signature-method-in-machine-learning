@@ -79,7 +79,7 @@ signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures
 [1., 3., -4., 4.5., -7., -5., 8.]
 ```
-# Important: 
+### Important: 
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).
 
 It is crucial to understand each term in the resulting signature. The general form of the signatures is given by iterated integrals (_projections_ or _coordinates_) of a path.

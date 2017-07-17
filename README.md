@@ -53,6 +53,8 @@ Now let's delve into the Signature Method.
 
 ## Installation of the ESig package
 
+Practical applications of the signature method (SM) to machine learning and data analys tasks can be performed using the `ESig` package. The package is written in C++ with a user-friendly Python wrapper. In the near future (exp. Nov 2017), the ESig package will be availabe through a standard `pip install ESig` command line method, but in the meantime, one can download the installer from the CoRoPa repository <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>
+
 ## A path from discretely sampled data
 
 The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ = _{0,1,2,3}_ may be thought as time component and _X_ = _{6,1,8,2}_ is a stock price: 

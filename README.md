@@ -49,8 +49,15 @@ Last, but not least, the classic book on the theory of rough paths, it is a coll
 <a href="https://link.springer.com/book/10.1007%2F978-3-540-71285-5" target="_blank">Differential Equations Driven by Rough Paths</a>
 
 
+Now let's delve into the Signature Method.
 
-## Continuous path from discretely sampled data
+
+## A path from discretely sampled data
+
+The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs {(t_i, X_i)}, where t_i may be thought as time component and X_i is a price of a stock:
+
+
+
 
 
 

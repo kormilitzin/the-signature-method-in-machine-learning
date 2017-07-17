@@ -68,6 +68,7 @@ X_i = np.array([6, 1, 8, 2]).astype(float)
 two_dim_stream = np.reshape( zip(t_i, X_i), newshape=(-1,2) )
 signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures
+array([1., 3., -4., 4.5., -7., -5., 8.])
 ```
 
 

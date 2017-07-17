@@ -56,7 +56,7 @@ Now let's delve into the Signature Method.
 
 The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where t_i may be thought as time component and X_i is a price of a stock:
 
-
+![alt text](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/t_X_path_example.png)
 
 
 

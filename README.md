@@ -55,12 +55,13 @@ Now let's delve into the Signature Method.
 
 ## A path from discretely sampled data
 
-The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ = _{0,1,2,3}_ may be thought as time component and _X_ = _{6,1,8,2}_ is a stock price, : 
+The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ = _{0,1,2,3}_ may be thought as time component and _X_ = _{6,1,8,2}_ is a stock price: 
 
 ![alt text](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/t_X_path_example_1.png)
 
 
-Here, the red dots are descrete data points and the blue solid line is a path continuosly connecting the data points. This two dimensional picture can be easily extended to any dimensions _d_ (however, it would be very hard to plot a path in _d_-dimensions).
+*Note: For the sake of simplicity and further computational examples, we considered integer numbers only. Of course there is no conceptual restriction to use real numbers*. 
+The red dots are discrete data points and the blue solid line is a path continuously connecting the data points. In practice, we took two 1-dimensional sequences and embedded into a single (1-dim) path in 2-dimension. Generalising the idea, any collection of _d_ 1-dim paths can be embedded into a single path in _d_-dimensions.
 
 
 

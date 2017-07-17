@@ -70,7 +70,7 @@ two_dim_stream = np.random.random(size=(10,2))
 print ts.stream2sig(two_dim_stream, 2)
 [1.0, -0.10661163, -0.69629065, 0.00568302, -0.03958541, 0.11381809, 0.242421033]
 ```
-_(the output will depend on your current seed of a random generator and will be different from the presented one)_
+_(the output will depend on your current seed of a random generator and will be different from the presented one, except from the very first term `1`, which is always 1 and will be explained below)_
 
 ## A path from ordered data
 

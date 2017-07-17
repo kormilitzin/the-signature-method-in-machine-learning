@@ -67,7 +67,7 @@ and run a simple example:
 
 ```python
 two_dim_stream = np.random.random(size=(10,2))
-print ts.stream2sig(two_sim_stream, 2)
+print ts.stream2sig(two_dim_stream, 2)
 [1.0, -0.10661163, -0.69629065, 0.00568302, -0.03958541, 0.11381809, 0.242421033]
 ```
 
@@ -84,7 +84,7 @@ The red dots are discrete data points and the blue solid line is a path continuo
 
 The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points.
 
-The signature of the path given in Figure 1 is obtained by running the code:
+The truncated signature at level (depth) `L=2` of the path given in Figure 1 is obtained by running the code:
 
 ```python
 import numpy as np

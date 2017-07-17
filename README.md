@@ -62,15 +62,14 @@ To check the installation, first import the ESig package into your Python sessio
 ```python
 import numpy as np
 import esig.tosig as ts
-
-t_i = np.arange(4)
-X_i = np.array([6, 1, 8, 2]).astype(float)
-two_dim_stream = np.reshape( zip(t_i, X_i), newshape=(-1,2) )
-signatures = ts.stream2sig(two_dim_stream, 2)
-print signatures
-array([1., 3., -4., 4.5., -7., -5., 8.])
 ```
+and run a simple example: 
 
+```python
+two_dim_stream = np.random.random(size=(10,2))
+print ts.stream2sig(two_sim_stream, 2)
+[1.0, -0.10661163, -0.69629065, 0.00568302, -0.03958541, 0.11381809, 0.242421033]
+```
 
 
 ## A path from discretely sampled data
@@ -81,7 +80,23 @@ The key ingredient of the signature method is a path constructed from data. The 
 
 
 *Note: For the sake of simplicity and further computational examples, we considered integer numbers only. Of course there is no conceptual restriction to use real numbers*. 
-The red dots are discrete data points and the blue solid line is a path continuously connecting the data points. In fact, we took two 1-dimensional sequences and embedded into a single (1-dim) path in 2-dimension. Generalising the idea, any collection of _d_ 1-dim paths can be embedded into a single path in _d_-dimensions.
+The red dots are discrete data points and the blue solid line is a path continuously connecting the data points. In fact, we took two 1-dimensional sequences and embedded into a single (1-dim) path in 2-dimension. Generalising the idea, any collection of _d_ 1-dim paths can be embedded into a single path in _d_-dimensions. 
+
+The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points.
+
+The signature of the path given in Figure 1 is obtained by running the code:
+
+```python
+import numpy as np
+import esig.tosig as ts
+t_i = np.arange(4)
+X_i = np.array([6, 1, 8, 2]).astype(float)
+two_dim_stream = np.reshape( zip(t_i, X_i), newshape=(-1,2) )
+signatures = ts.stream2sig(two_dim_stream, 2)
+print signatures
+[1., 3., -4., 4.5., -7., -5., 8.]
+```
+
 
 
 

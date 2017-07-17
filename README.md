@@ -76,7 +76,7 @@ print ts.stream2sig(two_dim_stream, 2)
 
 The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ = _{0,1,2,3}_ may be thought as time component and _X_ = _{6,1,8,2}_ is a stock price: 
 
-![figure_1](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/t_X_path_example_1.png "Figure 1")
+![figure_1](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/t_X_path_example_1.png){#figure_1}
 
 
 *Note: For the sake of simplicity and further computational examples, we considered integer numbers only. Of course there is no conceptual restriction to use real numbers*. 
@@ -84,7 +84,7 @@ The red dots are discrete data points and the blue solid line is a path continuo
 
 The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points.
 
-The truncated signature at level (depth) `L=2` of the path given in [figure_1] is obtained by running the code:
+The truncated signature at level (depth) `L=2` of the path given in [Figure 1](#figure_1) is obtained by running the code:
 
 ```python
 import numpy as np

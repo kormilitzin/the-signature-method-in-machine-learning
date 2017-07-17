@@ -54,7 +54,7 @@ Now let's delve into the Signature Method.
 
 ## A path from discretely sampled data
 
-The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ may be thought as time component and _X_ is a price of a stock: [f1]: http://mathurl.com/y9pjrdyy.png
+The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ may be thought as time component and _X_ is a stock price: 
 
 ![alt text](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/t_X_path_example.png)
 
@@ -63,14 +63,10 @@ The key ingredient of the signature method is a path constructed from data. The 
 
 
 
-```python
-s = "Python syntax highlighting"
-print s
-```
 
 
 
 
 
 
-
+[f1]: http://mathurl.com/y9pjrdyy.png

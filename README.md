@@ -80,6 +80,9 @@ print signatures
 [1., 3., -4., 4.5., -7., -5., 8.]
 ```
 
+It is crucial to understand each term in the resulting signature. The general form of the signatures is given by iterated integrals (_projections_ or _coordinates_) of a path.
+
+The first term of the signature is always `1`, as it corresponds to a zeroth-order approximation (or a constant). 
 
 
 

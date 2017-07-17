@@ -84,7 +84,7 @@ The red dots are discrete data points and the blue solid line is a path continuo
 
 The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points.
 
-The truncated signature at level (depth) `L=2` of the path given in Figure (@fig_1) is obtained by running the code:
+The truncated signature at level (depth) `L=2` of the path presented in above is obtained by running the code:
 
 ```python
 import numpy as np

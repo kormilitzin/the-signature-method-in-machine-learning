@@ -8,43 +8,28 @@ In the meantime, you can explore and familiarise yourself with some recent works
 
 General overview and real-world examples from the founder of the signature method, <a href="https://en.wikipedia.org/wiki/Terry_Lyons_(mathematician)" target="_blank">Professor Terry Lyons</a>: <a href="https://arxiv.org/pdf/1405.4537.pdf" target="_blank">Rough paths, Signatures and the modelling of functions on streams</a>
 
-A gentle introduction with lots of explained examples and an overview of recent application of the method are concisely represented in the primer:
+A gentle introduction with lots of explained examples and an overview of recent application of the method are concisely represented in the primer: <a href="https://arxiv.org/pdf/1603.03788.pdf" target="_blank">A Primer on the Signature Method in Machine Learning</a>
 
-<a href="https://arxiv.org/pdf/1603.03788.pdf" target="_blank">A Primer on the Signature Method in Machine Learning</a>
+For mathematical ninjas and those with solid background in statistical machine learning, the next step will be this article: <a href="https://arxiv.org/pdf/1601.08169.pdf" target="_blank">Kernels for sequentially ordered data</a>
 
-For mathematical ninjas and those with solid background in statistical machine learning, the next step will be this article:
-
-<a href="https://arxiv.org/pdf/1601.08169.pdf" target="_blank">Kernels for sequentially ordered data</a>
-
-Pure mathematicians and audience working with time-series data will highly appreciate this seminal work:
-
-<a href="https://arxiv.org/pdf/1309.0260.pdf" target="_blank">Learning from the past, predicting the statistics for the future, learning an evolving system</a>
+Pure mathematicians and audience working with time-series data will highly appreciate this seminal work: <a href="https://arxiv.org/pdf/1309.0260.pdf" target="_blank">Learning from the past, predicting the statistics for the future, learning an evolving system</a>
 
 
 Here is the collection of real applications of the signature method in different domains:
 
 
-Deep learning and characters recognition:
-
-<a href="https://arxiv.org/pdf/1308.0371.pdf" target="_blank">Sparse arrays of signatures for online character recognition</a>
+Deep learning and characters recognition: <a href="https://arxiv.org/pdf/1308.0371.pdf" target="_blank">Sparse arrays of signatures for online character recognition</a>
 
 
-Finance and stock market:
-
-<a href="https://arxiv.org/pdf/1307.7244.pdf" target="_blank">Extracting information from the signature of a financial data stream</a>
+Finance and stock market: <a href="https://arxiv.org/pdf/1307.7244.pdf" target="_blank">Extracting information from the signature of a financial data stream</a>
 
 
-Medicine and mental health:
+Medicine and mental health: <a href="https://arxiv.org/pdf/1606.02074.pdf" target="_blank">Application of the Signature Method to Pattern Recognition in the CEQUEL Clinical Trial</a>
 
-<a href="https://arxiv.org/pdf/1606.02074.pdf" target="_blank">Application of the Signature Method to Pattern Recognition in the CEQUEL Clinical Trial</a>
-
-Deep learning and recurrent neural networks:
-
-<a href="https://arxiv.org/pdf/1705.06849.pdf" target="_blank">Online Signature Verification using Recurrent Neural Network and Length-normalized Path Signature</a>
+Deep learning and recurrent neural networks: <a href="https://arxiv.org/pdf/1705.06849.pdf" target="_blank">Online Signature Verification using Recurrent Neural Network and Length-normalized Path Signature</a>
 
 
-Last, but not least, the classic book on the theory of rough paths, it is a collection of lectures given at Saint-Flour school.
-<a href="https://link.springer.com/book/10.1007%2F978-3-540-71285-5" target="_blank">Differential Equations Driven by Rough Paths</a>
+Last, but not least, the classic book on the theory of rough paths, it is a collection of lectures given at Saint-Flour school: <a href="https://link.springer.com/book/10.1007%2F978-3-540-71285-5" target="_blank">Differential Equations Driven by Rough Paths</a>
 
 
 Now let's delve into the Signature Method.

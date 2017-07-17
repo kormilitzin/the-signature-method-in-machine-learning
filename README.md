@@ -56,7 +56,7 @@ Now let's delve into the Signature Method.
 
 The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs {(t_i, X_i)}, where t_i may be thought as time component and X_i is a price of a stock:
 
-http://mathurl.com/y9pjrdyy
+http://mathurl.com/y9pjrdyy.png
 
 
 ```python

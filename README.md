@@ -109,7 +109,7 @@ One of the most important property of the signature terms (signatures), which st
 
 ![shuff_prod]
 
-(which also could be verified numerically)
+which also could be verified numerically.
 
 ### Important: 
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).

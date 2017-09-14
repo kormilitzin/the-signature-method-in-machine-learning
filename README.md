@@ -87,7 +87,7 @@ import numpy as np
 import esig.tosig as ts
 X_1 = np.array([1, 3, 5, 8]).astype(float)
 X_2 = np.array([1, 4, 2, 6]).astype(float)
-two_dim_stream = np.reshape( zip(t_i, X_i), newshape=(-1,2) )
+two_dim_stream = np.array(zip(t_i, X_i))
 signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures
 [1., 7., 5., 24.5., 19., 16., 12.5]
@@ -95,6 +95,17 @@ print signatures
 ### Important: 
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).
 
+### Bookeeping:
+For the sake of consistency, we denote the input data size by:
+* p - number of rows (data points)
+* q - number of streams (unidimensional sequences)
+* L - signature truncation level
+
+The function `ts.stream2sig(n_dim_array, L)` receives two arguments, were `n_dim_array` - is a numpy array (your data) of size `p x q` and as defined earlier `L` - the signature truncation level.
+
+The `esig package` contain s handy `help` option, which explains on the available methods. Briefly, they are:
+
+* ts.logsigdim()
 
 
 

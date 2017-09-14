@@ -65,7 +65,7 @@ The key ingredient of the signature method is a path constructed from data. The 
 *Note: For the sake of simplicity and further computational examples, we considered integer numbers only. Of course there is no conceptual restriction to use real numbers*. 
 The red dots are discrete data points and the blue solid line is a path continuously connecting the data points. In fact, we took two 1-dimensional sequences and embedded into a single (1-dim) path in 2-dimension. Generalising the idea, any collection of _d_ 1-dim paths can be embedded into a single path in _d_-dimensions. 
 
-The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points. For example, the signature truncated at level 2, has a general form: ![f2], where:
+The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points. For example, the signature truncated at level (depth) `L=2`, has a general form: ![f2], where:
 
 * 1 - is the first term and always equals to `1` (zeroth-order approximation)
 * ![f3] - linear approximation terms, correspond to the total increment (net Euclidean distance between the end points along each dimension)

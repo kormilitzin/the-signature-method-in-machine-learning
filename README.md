@@ -65,12 +65,15 @@ The key ingredient of the signature method is a path constructed from data. The 
 *Note: For the sake of simplicity and further computational examples, we considered integer numbers only. Of course there is no conceptual restriction to use real numbers*. 
 The red dots are discrete data points and the blue solid line is a path continuously connecting the data points. In fact, we took two 1-dimensional sequences and embedded into a single (1-dim) path in 2-dimension. Generalising the idea, any collection of _d_ 1-dim paths can be embedded into a single path in _d_-dimensions. 
 
-The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points. For example, the signature truncated at level (depth) `L=2`, has a general form: ![f2], where:
+The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points. It is crucial to understand each term in the resulting signature. The general form of the signatures is given by iterated integrals (_projections_ or _coordinates_) of a path. For example, the signature truncated at level (depth) `L=2`, has a form: ![f2], where:
 
 * 1 - is the first term and always equals to `1` (zeroth-order approximation)
 * ![f3] - linear terms, correspond to the total increment (net Euclidean distance between the end points along each dimension)
-* ![f4] - a product of the first term (with a factor 1/2)
+* ![f4] - a square of the first linear term term (with a factor 1/2)
 * ![f5] - second order approximations (areas under the path computed
+* ![f6] - a square of the second linear term (with a factor 1/2)
+
+
 
 
 and these areas are presented in Figure 
@@ -92,11 +95,6 @@ print signatures
 ### Important: 
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).
 
-It is crucial to understand each term in the resulting signature. The general form of the signatures is given by iterated integrals (_projections_ or _coordinates_) of a path.
-
-* The first term of the signature is always `1`, as it corresponds to a zeroth-order approximation (or a constant). 
-* The second and the thirds terms correspond to a _linear_ approximation, the signature term denoted by the multi-index ![f3]
-
 
 
 
@@ -108,3 +106,4 @@ It is crucial to understand each term in the resulting signature. The general fo
 [f3]: http://mathurl.com/ycdvozb2.png
 [f4]: http://mathurl.com/ybwhd8uw.png
 [f5]: http://mathurl.com/yc3zfjby.png
+[f6]: http://mathurl.com/ya22btk5.png

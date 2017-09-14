@@ -104,6 +104,11 @@ where:
 
 One can easily compute coloured areas ![f5] from the plots and compare to numerical values of the corresponding signature terms.
 
+### Shuffle product
+One of the most important property of the signature terms (signatures), which stems from the algebra of the iterated integrals, is the shuffle product. The shuffle product allows to represent any product (polynomial) of the signature terms as a linear combination of the higher-order terms. For example: 
+
+![shuff_prod]
+
 ### Important: 
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).
 
@@ -166,4 +171,6 @@ By comparing this expression to the general form of the signature of two dimensi
 [s_12]: http://mathurl.com/y924b29a.png
 [s_21]: http://mathurl.com/yb6dzdoq.png
 [s_22]: http://mathurl.com/y86vk78v.png
+
+[shuff_prod]: http://mathurl.com/yag3fsv8.png
 

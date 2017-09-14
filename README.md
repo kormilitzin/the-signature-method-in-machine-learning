@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## What is the signature method?
 
 This repo is dedicated to the theory and practice of the signature method. This is a novel and powerful method for sequential data representation and feature extraction derived from the theory of <a href="https://en.wikipedia.org/wiki/Rough_path" target="_blank">rough paths</a> in stochastic analysis. 
@@ -84,11 +88,14 @@ the input array should always be in the form: `length_of_stream x dimension_of_s
 
 It is crucial to understand each term in the resulting signature. The general form of the signatures is given by iterated integrals (_projections_ or _coordinates_) of a path.
 
-The first term of the signature is always `1`, as it corresponds to a zeroth-order approximation (or a constant). 
+* The first term of the signature is always `1`, as it corresponds to a zeroth-order approximation (or a constant). 
+* The second and the thirds terms correspond to a _linear_ approximation, the signature term denoted by the multi-index `S^`
 
 
 
-
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+</body>
 
 
 

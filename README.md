@@ -92,6 +92,9 @@ signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures
 [1., 7., 5., 24.5., 19., 16., 12.5]
 ```
+
+One can easily compute coloured areas ![f5] from the plots and compare to numerical values of the corresponding signature terms.
+
 ### Important: 
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).
 
@@ -103,11 +106,11 @@ For the sake of consistency, we denote the input data size and the signature tru
 
 ### Functions of the ESig package
 
-Main two transformations (log and full signature), are given by:
+Main two transformations (log and full signature) are given by:
 * `ts.stream2logsig(data, L)`
 * `ts.stream2sig(data, L)`
 
-where the function `ts.stream2sig(data, L)` receives two arguments, were `data` - is a numpy array (your data) of size `p x q` and as defined earlier `L` - the signature truncation level.
+where the functions receive two arguments, were `data` - is a numpy array (your data) of size `p x q` and as defined earlier `L` - the signature truncation level.
 
 The `esig package` contains a handy `help` option, which explains on the available methods. Briefly, they are:
 

@@ -87,11 +87,10 @@ It is crucial to understand each term in the resulting signature. The general fo
 * The first term of the signature is always `1`, as it corresponds to a zeroth-order approximation (or a constant). 
 * The second and the thirds terms correspond to a _linear_ approximation, the signature term denoted by the multi-index `S^`
 
+\\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
 
 
-When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-</body>
 
 
 

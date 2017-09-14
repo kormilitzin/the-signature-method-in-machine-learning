@@ -69,6 +69,8 @@ The signature is a transformation (mapping) from a path into a collection of rea
 
 * 1 - is the first term and always equals to `1` (zeroth-order approximation)
 * ![f3] - linear approximation terms, correspond to the total increment (net Euclidean distance between the end points along each dimension)
+* ![f4] - a product of the first term (with a factor 1/2)
+* ![f5] - second order approximations (areas under the path computed
 
 
 
@@ -103,3 +105,5 @@ It is crucial to understand each term in the resulting signature. The general fo
 [f1]: http://mathurl.com/y9pjrdyy.png
 [f2]: http://mathurl.com/yd4lhhhm.png
 [f3]: http://mathurl.com/ycdvozb2.png
+[f4]: http://mathurl.com/ybwhd8uw.png
+[f5]: http://mathurl.com/yc3zfjby.png

@@ -101,7 +101,13 @@ For the sake of consistency, we denote the input data size and the signature tru
 * q - number of streams (unidimensional sequences)
 * L - signature truncation level (depth)
 
-The function `ts.stream2sig(n_dim_array, L)` receives two arguments, were `n_dim_array` - is a numpy array (your data) of size `p x q` and as defined earlier `L` - the signature truncation level.
+### Functions of the ESig package
+
+Main two transformations (log and full signature), are given by:
+* `ts.stream2logsig(data, L)`
+* `ts.stream2sig(data, L)`
+
+where the function `ts.stream2sig(data, L)` receives two arguments, were `data` - is a numpy array (your data) of size `p x q` and as defined earlier `L` - the signature truncation level.
 
 The `esig package` contains a handy `help` option, which explains on the available methods. Briefly, they are:
 

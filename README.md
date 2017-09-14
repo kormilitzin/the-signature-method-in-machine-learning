@@ -87,7 +87,7 @@ import numpy as np
 import esig.tosig as ts
 X_1 = np.array([1, 3, 5, 8]).astype(float)
 X_2 = np.array([1, 4, 2, 6]).astype(float)
-two_dim_stream = np.array(zip(t_i, X_i))
+two_dim_stream = np.array(zip(X_1, X_2))
 signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures
 [1., 7., 5., 24.5., 19., 16., 12.5]

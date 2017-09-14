@@ -68,14 +68,13 @@ The red dots are discrete data points and the blue solid line is a path continuo
 The signature is a transformation (mapping) from a path into a collection of real-valued numbers. Each term in the collection has a particular (geometrical) meaning as a function of data points. For example, the signature truncated at level (depth) `L=2`, has a general form: ![f2], where:
 
 * 1 - is the first term and always equals to `1` (zeroth-order approximation)
-* ![f3] - linear approximation terms, correspond to the total increment (net Euclidean distance between the end points along each dimension)
+* ![f3] - linear terms, correspond to the total increment (net Euclidean distance between the end points along each dimension)
 * ![f4] - a product of the first term (with a factor 1/2)
 * ![f5] - second order approximations (areas under the path computed
 
 
 
-The truncated signature at level (depth) `L=2` has a general form of its temrs:
-![f2], 
+
 of the path presented in above is obtained by running the code:
 
 ```python

@@ -59,7 +59,7 @@ _(the output will depend on your current seed of a random generator and will be 
 
 The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ = _{0,1,2,3}_ may be thought as time component and _X_ = _{6,1,8,2}_ is a stock price: 
 
-![Figure (@fig_1): Example of embedding](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/t_X_path_example_1.png)
+![Figure (@fig_1): Example of embedding](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/path_exmp_1.png)
 
 
 *Note: For the sake of simplicity and further computational examples, we considered integer numbers only. Of course there is no conceptual restriction to use real numbers*. 

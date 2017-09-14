@@ -36,7 +36,7 @@ Now let's delve into the Signature Method.
 
 ## Installation of the ESig package
 
-Practical applications of the signature method (SM) to machine learning and data analysis tasks can be performed using the `ESig` package. The package is written in C++ with a user-friendly Python wrapper. In the near future (expected Nov 2017), the ESig package will be available through a standard `pip install ESig` command line method, but in the meantime, one can download the installer from the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
+Practical applications of the signature method (SM) to machine learning and data analysis tasks can be performed using the `ESig` package. The package is written in C++ with a user-friendly Python wrapper. It is available (however, still in the last stages of development) through a standard `pip install esig` command line method. Also, the packages for different operating systems are available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
 
 In this tutorial we consider a pragmatic approach to demonstrate the SM at work: starting with practical examples and then moving towards theory. Once you practiced the basics, it will be easier to understand the underlying mathematical foundations and think about future application of the method.
 
@@ -57,7 +57,7 @@ _(the output will depend on your current seed of a random generator and will be 
 
 ## A path from ordered data
 
-The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _t_ = _{0,1,2,3}_ may be thought as time component and _X_ = _{6,1,8,2}_ is a stock price: 
+The key ingredient of the signature method is a path constructed from data. The path is a continuous piece-wise interpolation of data points. For example, consider a collection of pairs ![f1], where _X_1_ = _{1,3,5,8}_ may be thought as time component and _X_2_ = _{1,4,2,6}_ is a stock price: 
 
 ![Figure (@fig_1): Example of embedding](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/path_exmp_1.png)
 

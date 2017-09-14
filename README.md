@@ -107,18 +107,18 @@ The `esig package` contains a handy `help` option, which explains on the availab
 
 * ts.logsigdim(q, L) - computes the size of the feature set given by log-signature.
 ```python
->> three_dim_stream = np.random.random(size=(100,3))
->> print ts.logsigdim(three_dim_stream.shape[1], 4)
->> 32
+three_dim_stream = np.random.random(size=(100,3))
+print ts.logsigdim(three_dim_stream.shape[1], 4)
+32
 ```
 which is a size of the feature set given by this three dimensional stream computed up to level 4 of the truncated signature.
 Similar function computes the size of the resulting feature set, but for the full (exponentiated) signature:
 
 * ts.sigdim(q, L) - computes the size of the feature set given by the full signature.
 ```python
->> three_dim_stream = np.random.random(size=(100,3))
->> print ts.sigdim(three_dim_stream.shape[1], 4)
->> 121
+three_dim_stream = np.random.random(size=(100,3))
+print ts.sigdim(three_dim_stream.shape[1], 4)
+121
 ```
 
 

@@ -1,7 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 ## What is the signature method?
 
 This repo is dedicated to the theory and practice of the signature method. This is a novel and powerful method for sequential data representation and feature extraction derived from the theory of <a href="https://en.wikipedia.org/wiki/Rough_path" target="_blank">rough paths</a> in stochastic analysis. 

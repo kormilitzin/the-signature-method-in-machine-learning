@@ -96,16 +96,22 @@ print signatures
 the input array should always be in the form: `length_of_stream x dimension_of_stream`. For example, two dimensional array consisting of 4 points, should be reshaped as `4x2` array (rows are data points and columns are unique streams).
 
 ### Bookeeping:
-For the sake of consistency, we denote the input data size by:
+For the sake of consistency, we denote the input data size and the signature truncation parameter by:
 * p - number of rows (data points)
 * q - number of streams (unidimensional sequences)
-* L - signature truncation level
+* L - signature truncation level (depth)
 
 The function `ts.stream2sig(n_dim_array, L)` receives two arguments, were `n_dim_array` - is a numpy array (your data) of size `p x q` and as defined earlier `L` - the signature truncation level.
 
-The `esig package` contain s handy `help` option, which explains on the available methods. Briefly, they are:
+The `esig package` contains a handy `help` option, which explains on the available methods. Briefly, they are:
 
-* ts.logsigdim()
+* ts.logsigdim(q, L) - computes the size of the feature set given by log-signature.
+```python
+>> three_dim_stream = np.random.random(size=(100,3))
+>> print ts.logsigdim(3, 4)
+>> 32
+```
+
 
 
 

@@ -73,7 +73,9 @@ The signature is a transformation (mapping) from a path into a collection of rea
 * ![f5] - second order approximations (areas under the path computed
 
 
+and these areas are presented in Figure 
 
+![Figure (@fig_2): Example of embedding](https://github.com/kormilitzin/the-signature-method-in-machine-learning/blob/master/area_S12_new_copy.png)
 
 of the path presented in above is obtained by running the code:
 

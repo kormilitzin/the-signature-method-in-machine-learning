@@ -101,7 +101,7 @@ It is crucial to understand each term in the resulting signature. The general fo
 
 
 
-[f1]: http://mathurl.com/y9pjrdyy.png
+[f1]: http://mathurl.com/ybnhbaep.png
 [f2]: http://mathurl.com/yd4lhhhm.png
 [f3]: http://mathurl.com/ycdvozb2.png
 [f4]: http://mathurl.com/ybwhd8uw.png

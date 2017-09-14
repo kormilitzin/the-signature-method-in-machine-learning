@@ -85,10 +85,8 @@ the input array should always be in the form: `length_of_stream x dimension_of_s
 It is crucial to understand each term in the resulting signature. The general form of the signatures is given by iterated integrals (_projections_ or _coordinates_) of a path.
 
 * The first term of the signature is always `1`, as it corresponds to a zeroth-order approximation (or a constant). 
-* The second and the thirds terms correspond to a _linear_ approximation, the signature term denoted by the multi-index `S^`
+* The second and the thirds terms correspond to a _linear_ approximation, the signature term denoted by the multi-index ![f2]
 
-\\( 1/x^{2} \\), and here is a block rendering: 
-\\[ \frac{1}{n^{2}} \\]
 
 
 
@@ -96,3 +94,4 @@ It is crucial to understand each term in the resulting signature. The general fo
 
 
 [f1]: http://mathurl.com/y9pjrdyy.png
+[f2]: http://mathurl.com/ycdvozb2

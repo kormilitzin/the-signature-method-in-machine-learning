@@ -98,8 +98,9 @@ where:
 * ![s_1] = 7.
 * ![s_2] = 5.
 * ![s_11] = 24.5
-* ![f_12] = 19.
-* ![f3] = 7.
+* ![s_12] = 19.
+* ![s_21] = 16.
+* ![s_22] = 12.5
 
 One can easily compute coloured areas ![f5] from the plots and compare to numerical values of the corresponding signature terms.
 

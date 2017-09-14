@@ -93,6 +93,14 @@ print signatures
 [1., 7., 5., 24.5., 19., 16., 12.5]
 ```
 
+where:
+
+* ![s_1] = 7.
+* ![s_2] = 5.
+* ![s_11] = 24.5
+* ![f_12] = 19.
+* ![f3] = 7.
+
 One can easily compute coloured areas ![f5] from the plots and compare to numerical values of the corresponding signature terms.
 
 ### Important: 
@@ -150,3 +158,11 @@ By comparing this expression to the general form of the signature of two dimensi
 [f4]: http://mathurl.com/ybwhd8uw.png
 [f5]: http://mathurl.com/yc3zfjby.png
 [f6]: http://mathurl.com/ya22btk5.png
+
+[s_1]: http://mathurl.com/yb6cm7sp.png
+[s_2]: http://mathurl.com/yda5wcgn.png
+[s_11]: http://mathurl.com/yd65blz5.png
+[s_12]: http://mathurl.com/y924b29a.png
+[s_21]: http://mathurl.com/yb6dzdoq.png
+[s_22]: http://mathurl.com/y86vk78v.png
+

@@ -94,4 +94,4 @@ It is crucial to understand each term in the resulting signature. The general fo
 
 
 [f1]: http://mathurl.com/y9pjrdyy.png
-[f2]: http://mathurl.com/ycdvozb2
+[f2]: http://mathurl.com/ycdvozb2.png

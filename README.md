@@ -105,7 +105,7 @@ The function `ts.stream2sig(n_dim_array, L)` receives two arguments, were `n_dim
 
 The `esig package` contains a handy `help` option, which explains on the available methods. Briefly, they are:
 
-* ts.logsigdim(q, L) - computes the size of the feature set given by log-signature.
+* `ts.logsigdim(q, L)` - computes the size of the feature set given by log-signature.
 ```python
 three_dim_stream = np.random.random(size=(100,3))
 print ts.logsigdim(three_dim_stream.shape[1], 4)
@@ -114,14 +114,20 @@ print ts.logsigdim(three_dim_stream.shape[1], 4)
 which is a size of the feature set given by this three dimensional stream computed up to level 4 of the truncated signature.
 Similar function computes the size of the resulting feature set, but for the full (exponentiated) signature:
 
-* ts.sigdim(q, L) - computes the size of the feature set given by the full signature.
+* `ts.sigdim(q, L)` - computes the size of the feature set given by the full signature.
 ```python
 three_dim_stream = np.random.random(size=(100,3))
 print ts.sigdim(three_dim_stream.shape[1], 4)
 121
 ```
 
-
+* `ts.sigkeys(q, L)` - outputs the combination of 'letters', or ordering of the iterated integrals of the full signature.
+```python
+two_dim_stream = np.random.random(size=(100,2))
+print ts.sigkeys(two_dim_stream.shape[1], 2)
+(), (1), (2), (1,1), (1,2), (2,1), (2,2)
+```
+By comparing this expression to the general form of the signature of two dimensional stream truncated at level 2 given in above, one can easily see the correspondence between the terms.
 
 
 

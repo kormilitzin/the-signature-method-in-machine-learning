@@ -122,7 +122,7 @@ For the sake of consistency, we denote the input data size and the signature tru
 
 ### Functions of the ESig package
 
-Main two transformations (log and full signature) are given by:
+Two main transformations (log and full signature) are given by:
 * `ts.stream2logsig(data, L)`
 * `ts.stream2sig(data, L)`
 

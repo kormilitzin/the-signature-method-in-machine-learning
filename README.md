@@ -105,7 +105,7 @@ where:
 One can easily compute coloured areas ![f5] from the plots and compare to numerical values of the corresponding signature terms.
 
 ### Shuffle product
-One of the most important property of the signature terms (signatures), which stems from the algebra of the iterated integrals, is the shuffle product. The shuffle product allows to represent any product (polynomial) of the signature terms as a linear combination of the higher-order terms. For example: 
+One of the most important property of the signature terms (signatures), which stems from the algebra of the iterated integrals, is the shuffle product  <a href="https://en.wikipedia.org/wiki/Shuffle_algebra" target="_blank">shuffle product</a>. The shuffle product allows to represent any product (polynomial) of the signature terms as a linear combination of the higher-order terms. For example: 
 
 ![shuff_prod]
 

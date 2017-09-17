@@ -98,7 +98,7 @@ X_2 = np.array([1, 4, 2, 6]).astype(float)
 two_dim_stream = np.array(zip(X_1, X_2))
 signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures
-[1., 7., 5., 24.5., 19., 16., 12.5]
+>> [1., 7., 5., 24.5., 19., 16., 12.5]
 ```
 
 where:
@@ -142,7 +142,7 @@ The `esig package` contains a handy `help` option, which explains on the availab
 ```python
 three_dim_stream = np.random.random(size=(100,3))
 print ts.logsigdim(three_dim_stream.shape[1], 4)
-32
+>> 32
 ```
 which is a size of the feature set given by this three dimensional stream computed up to level 4 of the truncated signature.
 Similar function computes the size of the resulting feature set, but for the full (exponentiated) signature:
@@ -151,7 +151,7 @@ Similar function computes the size of the resulting feature set, but for the ful
 ```python
 three_dim_stream = np.random.random(size=(100,3))
 print ts.sigdim(three_dim_stream.shape[1], 4)
-121
+>> 121
 ```
 
 * `ts.sigkeys(q, L)` - outputs the combination of 'letters', or ordering of the iterated integrals of the full signature.

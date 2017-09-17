@@ -36,7 +36,15 @@ Now let's delve into the Signature Method.
 
 ## Installation of the ESig package
 
-Practical applications of the signature method (SM) to machine learning and data analysis tasks can be performed using the `ESig` package. The package is written in C++ with a user-friendly Python wrapper. It is available (however, still in the last stages of development) through a standard `pip install esig` command line method. Also, the packages for different operating systems are available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
+Practical applications of the signature method (SM) to machine learning and data analysis tasks can be performed using the `ESig` package. The package is written in C++ with a user-friendly Python wrapper. It is available (however, still in the active stages of development) through a standard command line method: 
+
+```python
+pip install esig`
+```
+
+Also, the packages is available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
+
+### First run
 
 In this tutorial we consider a pragmatic approach to demonstrate the SM at work: starting with practical examples and then moving towards theory. Once you practiced the basics, it will be easier to understand the underlying mathematical foundations and think about future application of the method.
 

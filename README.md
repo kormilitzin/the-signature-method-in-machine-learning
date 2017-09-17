@@ -158,7 +158,7 @@ print ts.sigdim(three_dim_stream.shape[1], 4)
 ```python
 two_dim_stream = np.random.random(size=(100,2))
 print ts.sigkeys(two_dim_stream.shape[1], 2)
-(), (1), (2), (1,1), (1,2), (2,1), (2,2)
+>> (), (1), (2), (1,1), (1,2), (2,1), (2,2)
 ```
 By comparing this expression to the general form of the signature of two dimensional stream truncated at level 2 given in above, one can easily see the correspondence between the terms.
 

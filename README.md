@@ -162,7 +162,9 @@ print ts.sigkeys(two_dim_stream.shape[1], 2)
 ```
 By comparing this expression to the general form of the signature of two dimensional stream truncated at level 2 given in above, one can easily see the correspondence between the terms.
 
+## Examples
 
+(coming soon...)
 
 
 

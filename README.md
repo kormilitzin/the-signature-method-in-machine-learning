@@ -2,7 +2,7 @@
 
 This repo is dedicated to the theory and practice of the signature method. This is a novel and powerful method for sequential data representation and feature extraction derived from the theory of <a href="https://en.wikipedia.org/wiki/Rough_path" target="_blank">rough paths</a> in stochastic analysis. 
 
-The website is in active stages of development and its content is updated regulary. Keep track!
+The website is in active stages of development and its content is updated regulary. Stay tuned!
 
 In the meantime, you can explore and familiarise yourself with some recent works in machine learning where the signature method has played a major role.
 

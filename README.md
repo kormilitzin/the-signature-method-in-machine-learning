@@ -93,8 +93,8 @@ The path presented in above is obtained by running the code:
 ```python
 import numpy as np
 import esig.tosig as ts
-X_1 = np.array([1, 3, 5, 8]).astype(float)
-X_2 = np.array([1, 4, 2, 6]).astype(float)
+X_1 = np.array([1., 3., 5., 8.])
+X_2 = np.array([1., 4., 2., 6.])
 two_dim_stream = np.array(zip(X_1, X_2))
 signatures = ts.stream2sig(two_dim_stream, 2)
 print signatures

@@ -42,7 +42,7 @@ Practical applications of the signature method (SM) to machine learning and data
 pip install esig
 ```
 
-Also, the packages is available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
+Also, the package is available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
 
 ### First run
 

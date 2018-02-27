@@ -46,7 +46,8 @@ Also, the package is available at the <a href="https://sourceforge.net/projects/
 
 ***Attention!*** The ESig package uses <a href="http://www.boost.org/">Boost libraries</a>, so if your installation fails, try first to install the boost:
 
-```sudo apt-get install libboost-all-dev
+```python
+sudo apt-get install libboost-all-dev
 ```
 
 ### First run

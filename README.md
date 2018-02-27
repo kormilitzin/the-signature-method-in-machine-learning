@@ -44,6 +44,11 @@ pip install esig
 
 Also, the package is available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
 
+***Attention!*** The ESig package uses <a href="http://www.boost.org/">Boost libraries</a>, so if your installation fails, try first to install the boost:
+
+```sudo apt-get install libboost-all-dev
+```
+
 ### First run
 
 In this tutorial we consider a pragmatic approach to demonstrate the SM at work: starting with practical examples and then moving towards theory. Once you practiced the basics, it will be easier to understand the underlying mathematical foundations and think about future application of the method.

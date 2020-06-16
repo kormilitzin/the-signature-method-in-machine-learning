@@ -44,11 +44,6 @@ pip install esig
 
 Also, the package is available at the <a href="https://sourceforge.net/projects/coropa/files/ESig-2017-06-07/">CoRoPa repository</a>, the `ESig-2017-06-07.7z` zipped file. 
 
-***Attention!*** The ESig package uses <a href="http://www.boost.org/">Boost libraries</a>, so if your installation fails, try first to install the boost (example on Linux):
-
-```python
-sudo apt-get install libboost-all-dev
-```
 
 ### First run
 
